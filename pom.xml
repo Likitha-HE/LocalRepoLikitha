@@ -76,7 +76,7 @@
         <version>3.5.4</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>VtigerBatchtest.xml</suiteXmlFile>
+            <suiteXmlFile>batchtest.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
