@@ -55,5 +55,34 @@
     <version>5.0.9</version>
 </dependency>
 
+  
+<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.38</version>
+</dependency>
+
   </dependencies>
+  
+  <profiles>
+  <profile>
+  <build>
+  <pluginManagement>
+  <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.5.4</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>VtigerBatchtest.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+</plugins>
+  </pluginManagement>
+  </build>
+  </profile>
+  </profiles>
 </project>
