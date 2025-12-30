@@ -5,7 +5,7 @@
     <classes>
       <class name="tes_Module.Shilpa_Test"/>
       <class name="Ayushi.Test1"/>
-       <class name="organization.CreateOrganization"></class>
+       <class name="organization.CreateOrganizationTest"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
