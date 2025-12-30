@@ -141,5 +141,10 @@ public class CreateOrganizationWithIndustryDropDownTest {
 		Thread.sleep(5000);
 		driver.quit();
 	}
+	
+	@Test
+	public void test1() {
+		System.out.println("Jekins scm test");
+	}
 
 }
