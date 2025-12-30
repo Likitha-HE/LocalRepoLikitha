@@ -5,6 +5,7 @@
     <classes>
       <class name="geetha.TE_Geetha_Changes_Test"/>
       <class name="calender.Calender"/>
+       <class name="organization.CreateOrganization"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
