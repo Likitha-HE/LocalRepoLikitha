@@ -146,6 +146,9 @@ public class CreateOrganizationWithIndustryDropDownTest {
 	public void test1() {
 		System.out.println("Jekins scm test");
 		System.out.println("Jekins scm test1");
+		System.out.println("Jekins scm test2");
+		System.out.println("Jekins scm test3");
+		
 	}
 
 }
