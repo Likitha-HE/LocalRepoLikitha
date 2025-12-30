@@ -65,7 +65,7 @@
 
   </dependencies>
   
-  <profiles>
+ <!-- <profiles>
   <profile>
   <build>
   <pluginManagement>
@@ -77,6 +77,48 @@
         <configuration>
           <suiteXmlFiles>
             <suiteXmlFile>batchtest.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+</plugins>
+  </pluginManagement>
+  </build>
+  </profile>
+  </profiles>--> 
+  
+   <profiles>
+  <profile>
+  <id>st</id>
+  <build>
+  <pluginManagement>
+  <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.5.4</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>smoketest.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+</plugins>
+  </pluginManagement>
+  </build>
+  </profile>
+  
+  <profile>
+  <id>rt</id>
+  <build>
+  <pluginManagement>
+  <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.5.4</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>regtest.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
