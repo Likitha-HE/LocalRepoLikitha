@@ -41,7 +41,7 @@ public class CreateOrganizationTest extends BaseClass {
 	}
 
 	@Test(groups = "regression")
-	public void CreateOrganizationWithIndustryDropDownTest1() throws InterruptedException, IOException {
+	public void createOrganizationWithIndustryDropDownTest() throws InterruptedException, IOException {
 		//read data from Excel 
 		String orgName = eLib.readDataFromExcel("Organizations", 0, 1)+jLib.getRandomNo();
 		String industryDD=eLib.readDataFromExcel("Organizations", 1, 1);
