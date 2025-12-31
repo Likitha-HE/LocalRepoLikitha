@@ -142,7 +142,7 @@ public class CreateOrganizationWithIndustryDropDownTest {
 		driver.quit();
 	}
 	
-	@Test
+	@Test(groups = "smoke")
 	public void test1() {
 		System.out.println("Jekins scm test");
 		System.out.println("Jekins scm test1");
