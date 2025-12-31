@@ -10,6 +10,8 @@ public void test1() {
 	System.out.println("--Printing---");
 	System.out.println("--Printing 123---");
 	System.out.println("--test1---");
+	System.out.println("--test2---");
+	System.out.println("--test3--");
 	
 	
 }
