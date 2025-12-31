@@ -8,6 +8,9 @@ public void test1() {
 	System.out.println("--printing abc---");
 	System.out.println("--Hello---");
 	System.out.println("--Printing---");
+	System.out.println("--Printing 123---");
+	System.out.println("--test1---");
+	
 	
 }
 }
