@@ -6,5 +6,8 @@ public class Shilpa_Test {
 @Test(groups = "smoke")
 public void test1() {
 	System.out.println("--printing abc---");
+	System.out.println("--Hello---");
+	System.out.println("--Printing---");
+	
 }
 }
